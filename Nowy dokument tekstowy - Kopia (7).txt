@@ -1,0 +1,34 @@
+dfgimport java.util.ArrayList;
+ 
+public class Main {
+ 
+
+    public static voi
+d main(String[] args) {
+       Baza x = new Baz
+a();
+ 
+
+       x.set.liczba(100);
+       int y = x.get.liczba(0)
+; // zerowy element?
+ 
+       System.out.println(y);
+    }df
+
+ 
+    public static class Baza {
+        private ArrayList<Integer> liczba = new ArrayList<>();
+        public get get;
+        public set set;
+ 
+        private class get {
+            public int liczba(int id) {return liczba.get(id);}
+        }
+ 
+        private class set {
+            public void liczba(int wartosc) {liczba.add(wartosc);}
+        }
+    }
+ 
+}

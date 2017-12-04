@@ -1,0 +1,46 @@
+dfsfbimport java.util.ArrayList;
+ 
+public class
+ Main {
+ 
+
+    public static void main(String[] args) {
+       Baza x = new Baza();
+ 
+       x.set.liczba(100);
+       int y = 
+x.get.li]p[\\
+
+
+czba(0); // zerow
+y element?
+ df;
+       System.out.println(y);
+    }ZSD
+
+
+
+ 
+    public static class Baza {
+        private ArrayList<Int
+
+
+
+
+eger> liczba = new Ar
+rayList<>();
+        public get ge
+t;
+        public set s
+srdfet;
+ 
+        private class get {
+            public int liczba(int id) {return liczba.get(id);}
+        }
+ 
+        private class set {
+            public void liczba(int wartosc) {liczba.add(wartosc);}
+        }
+    }
+ 
+}
