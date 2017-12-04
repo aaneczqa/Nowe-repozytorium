@@ -1,10 +1,10 @@
-#include <iostream>
-#include <string>
+123
+ala
 #include <math.h>
  
 using namespace std;
  
- double a, b, c, p, q, delta, x1, x2;
+ double delta, x1, x2;
      int liczba;
       
       
